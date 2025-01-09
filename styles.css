@@ -1,11 +1,44 @@
 html {
-    background-color: rgb(103, 216, 116);
+    background-color: #a3abb1;
 }
 
 body {
     padding: 0px;
     margin: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* === color classes */
+.bg-color-1 {
+    background-color: #fef1d2;
+}
+
+.bg-color-2 {
+    background-color: #a9fdd8;
+}
+
+.bg-color-3 {
+    background-color: #d7f8ff;
+}
+
+.bg-color-4 {
+    background-color: #feceea;
+}
+
+.bg-color-5 {
+    background-color: #cec5fa;
+}
+
+.bg-color-6 {
+    background-color: #d0b998;
+}
+
+.bg-color-7 {
+    background-color: #9cb887;
+}
+
+/* === color classes */
 
 /* **** NAVBAR **** */
 /* Add a black background color to the top navigation */
@@ -41,7 +74,6 @@ body {
 /* **** NAVBAR **** */
 
 /* ==== ABOUT ME ==== */
-/* === About Me === */
 .AboutMeSection {
     background-color: #F1DABF;
 
@@ -77,3 +109,81 @@ body {
 }
 
 /* ==== ABOUT ME ==== */
+
+/* === PROJECTS ==== */
+.Projects Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 100%;
+}
+
+.ProjectItem {
+    border: 5px solid #333;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px;
+    margin-top: 10px;
+}
+
+.ProjectItem img {
+    width: 400px;
+    justify-content: left;
+}
+
+.ProjectItemDescription {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.ProjectItem h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+    margin: 0px;
+    padding: 10px;
+}
+
+.ProjectItem h4 {
+    text-align: center;
+    font-size: 16px;
+
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.ProjectItem p {
+    margin: 0px;
+    padding: 10px 25px;
+
+    text-align: left;
+}
+
+.ProjectItem li {
+    margin: 0px;
+    padding: 5px 10px;
+
+    font-weight: bold;
+}
+
+/* === PROJECTS ==== */
+
+@media screen and (max-width: 1000px) {
+    .ProjectItem img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .ProjectItem {
+        flex-wrap: wrap;
+        margin: 10px 0px
+    }
+
+    .ProjectItem img {
+        order: 10;
+    }
+}
