@@ -88,17 +88,30 @@ body {
     margin: 0px;
 }
 
-.AboutMeSection img {
-    max-width: 150px;
-    max-height: 150px;
+.AboutMeDescription {
+    display: flex;
+    flex-direction: column;
+}
 
-    width: 150px;
-    height: 125px;
+.AboutMeSection img {
+    max-width: 500px;
+    max-height: 500px;
+
+    width: 100px;
 
     border-radius: 100%;
     padding-right: 50px;
     padding-left: 50px;
-    flex: 1 1 auto;
+    flex: 0.4 1 auto;
+}
+
+.AboutMeSection h4 {
+    margin: 0px;
+    margin-top: 10px;
+    padding: 0px 5px;
+
+    text-align: left;
+    font-size: 20px;
 }
 
 
@@ -106,6 +119,11 @@ body {
     width: 500px;
     max-width: 700px;
     flex: 1 1 auto;
+
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0px;
 }
 
 /* ==== ABOUT ME ==== */
@@ -174,6 +192,10 @@ body {
 @media screen and (max-width: 1000px) {
     .ProjectItem img {
         width: 300px;
+    }
+
+    .AboutMeSection p {
+        width: auto;
     }
 }
 
