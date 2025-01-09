@@ -1,5 +1,6 @@
 html {
     background-color: #92817A;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* === Main CV Content */
@@ -29,20 +30,13 @@ html {
     background-color: #F1DABF;
 }
 
-#AboutMeSection h2 {
-    display: block;
-    text-align: center;
-    padding: 5px;
-    margin: 0px;
-}
-
 #AboutMeSectionContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0px 15px 15px 15px;
+    padding: 15px;
     margin: 0px;
 }
 
