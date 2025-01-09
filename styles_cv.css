@@ -1,0 +1,200 @@
+html {
+    background-color: #92817A;
+}
+
+/* === Main CV Content */
+.CvContainer {
+    background-color: #FFFBFF;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 0px;
+    box-shadow: 0 2px 20px #000500;
+}
+
+.MainCvContent {
+    display: flex;
+}
+
+.LeftColumn {
+    flex: 1 1 0;
+}
+
+.RightColumn {
+    flex: 2 1 0;
+    padding-left: 20px;
+}
+
+/* === About Me === */
+#AboutMeSection {
+    background-color: #F1DABF;
+}
+
+#AboutMeSection h2 {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+#AboutMeSectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 15px 15px 15px;
+    margin: 0px;
+}
+
+#AboutMeSection img {
+    max-width: 150px;
+    max-height: 150px;
+
+    width: 150px;
+    height: 125px;
+
+    border-radius: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    flex: 1 1 auto;
+}
+
+
+#AboutMeSection p {
+    width: 500px;
+    max-width: 700px;
+    flex: 1 1 auto;
+}
+
+/* === Skills === */
+#SkillsSection {
+    background-color: #000500;
+    color: #FFFBFF;
+}
+
+.LeftColumn {
+    background-color: #000500;
+}
+
+#SkillsSection h2 {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+#SkillsSectionContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.SkillsItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+    padding-right: 20px;
+    margin: 10px;
+    gap: 10px;
+
+    border: 1px solid #92817A;
+    border-radius: 5px;
+}
+
+.SkillsItem img {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    border-radius: 100%;
+    align-self: center;
+}
+
+.SkillsItem span {
+    font-size: 18px;
+}
+
+/* === Education === */
+.HeaderWithHorizontalLine {
+    font-size: 20px;
+}
+
+.HeaderWithHorizontalLine h2::after {
+    display: inline-block;
+    position: relative;
+    content: "";
+
+    background-color: #92817A;
+    height: 3px;
+
+    vertical-align: middle;
+    width: 50%;
+}
+
+.HeaderWithHorizontalLine h2::after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.EducationSectionItem {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* === GENERIC === */
+.SectionTitle {
+    font-size: 20px;
+}
+
+.ItemContent {
+    font-size: 14px;
+}
+
+.ItemTitle h3 {
+    font-size: 15px;
+    font-weight: bold;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.ItemTitle h4 {
+    font-size: 14px;
+    font-weight: bold;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+hr {
+    width: 50%;
+    margin-left: 0;
+
+    border: 1px solid #F1DABF;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    /* === Main Content === */
+    .MainCvContent {
+        display: block;
+    }
+
+    /* === About Me === */
+    #AboutMeSection img {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* === Skills === */
+    #SkillsSection {
+        padding: 0 20px;
+    }
+
+    .SkillsItem span {
+        font-size: 16px;
+    }
+
+}
