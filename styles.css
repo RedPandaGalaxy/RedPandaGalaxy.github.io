@@ -219,3 +219,9 @@ body {
         order: 10;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .ProjectItem img {
+        width: 300px;
+    }
+}
