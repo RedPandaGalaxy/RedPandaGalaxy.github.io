@@ -1,5 +1,5 @@
 html {
-    background-color: #a3abb1;
+    background-color: #FFFBFF;
 }
 
 body {
@@ -102,7 +102,7 @@ body {
     border-radius: 100%;
     padding-right: 50px;
     padding-left: 50px;
-    flex: 0.4 1 auto;
+    flex: 1 1 auto;
 }
 
 .AboutMeSection h4 {
@@ -187,15 +187,25 @@ body {
     font-weight: bold;
 }
 
+.SectionTitle {
+    text-align: center;
+    background-color: #92817A;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
 /* === PROJECTS ==== */
 
 @media screen and (max-width: 1000px) {
-    .ProjectItem img {
-        width: 300px;
-    }
 
     .AboutMeSection p {
         width: auto;
+    }
+
+    .AboutMeSection img {
+        width: 200px;
+        flex: 1 2 auto;
     }
 }
 
