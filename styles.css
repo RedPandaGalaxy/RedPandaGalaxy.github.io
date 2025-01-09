@@ -39,3 +39,41 @@ body {
 }
 
 /* **** NAVBAR **** */
+
+/* ==== ABOUT ME ==== */
+/* === About Me === */
+.AboutMeSection {
+    background-color: #F1DABF;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 15px;
+    margin: 0px;
+}
+
+.AboutMeSection img {
+    max-width: 150px;
+    max-height: 150px;
+
+    width: 150px;
+    height: 125px;
+
+    border-radius: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    flex: 1 1 auto;
+}
+
+
+.AboutMeSection p {
+    width: 500px;
+    max-width: 700px;
+    flex: 1 1 auto;
+}
+
+/* ==== ABOUT ME ==== */
