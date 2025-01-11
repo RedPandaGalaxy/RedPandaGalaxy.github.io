@@ -236,6 +236,8 @@ body {
 
 .SectionTitle {
     text-align: center;
+    font-size: 36px;
+    font-weight: bold;
 
     background-color: #0B132B;
     color: #6FFFE9;
