@@ -245,8 +245,21 @@ hr {
 
     /* === Main Content === */
     .MainCvContent {
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
+
+    .LeftColumn {
+        order: 2;
+    }
+
+    .RightColumn {
+        flex: 2 1 0;
+        order: 1;
+    }
+
+    /* === Main Content === */
 
     /* === About Me === */
     #AboutMeSection img {

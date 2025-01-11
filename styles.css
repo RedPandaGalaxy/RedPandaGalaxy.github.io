@@ -265,10 +265,10 @@ body {
     margin: 5px;
     gap: 10px;
 
-    border: 1px solid #22007C;
+    border: 1px solid #5BC0BE;
     border-radius: 5px;
 
-    background-color: #abadb6;
+    background-color: #3A506B;
 
     max-width: 500px;
 }
@@ -328,6 +328,10 @@ body {
     .AboutMeSection img {
         width: 200px;
         flex: 1 2 auto;
+    }
+
+    .Tags {
+        justify-content: center;
     }
 }
 
