@@ -56,7 +56,7 @@ body {
     width: 100%;
 
     background-color: #04052E;
-    box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 20px 0px rgba(0, 0, 0, 0.2);
 
     border-bottom: thick groove #22007C;
 
@@ -171,7 +171,7 @@ body {
 .Projects Section {
     display: flex;
     align-items: center;
-    flex: 1 100%;
+    flex: 1 1 100%;
 }
 
 .ProjectItem {
@@ -182,13 +182,6 @@ body {
 
     /* width: 100%; */
     max-width: 1500px;
-}
-
-.ProjectItem img {
-    width: 500px;
-    justify-content: left;
-
-    margin: auto;
 }
 
 .ProjectItemDescription {
@@ -231,7 +224,88 @@ body {
 
     margin: 0px;
     padding: 5px 10px;
+}
 
+/* == SLIDE SHOW == */
+.slideShow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.slides {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Hide the images by default */
+.slide {
+    display: none;
+    width: 500px;
+    height: 250px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Flex ordering */
+.prev {
+    order: 0;
+}
+
+.slide {
+    order: 1;
+}
+
+.next {
+    order: 2;
+}
+
+.next,
+.prev {
+    background-color: #717171;
+    color: white;
+
+    border: none;
+    padding: 2px 8px;
+
+    border-radius: 10px;
+}
+
+.next:hover,
+.prev:hover {
+    background-color: #bbb;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 .SectionTitle {
@@ -316,10 +390,40 @@ body {
 
 .GameJamGame img {
     max-width: 400px;
+    margin: auto;
 }
 
 /* === Game Jam Games === */
+@media screen and (max-width: 1200px) {
+
+    .slide {
+        width: 300px;
+        height: 150px;
+    }
+
+    .GameJamGame img {
+        max-width: 300px;
+        margin: auto;
+
+        order: 10;
+    }
+}
+
 @media screen and (max-width: 1000px) {
+    .ProjectItem {
+        flex-wrap: wrap;
+        margin: 10px 0px;
+        justify-content: center;
+    }
+
+    .slideShow {
+        display: block;
+    }
+
+    .slide {
+        width: 400px;
+        height: 200px;
+    }
 
     .AboutMeSection p {
         width: auto;
@@ -335,19 +439,20 @@ body {
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
     .ProjectItem {
         flex-wrap: wrap;
         margin: 10px 0px
     }
 
-    .ProjectItem img {
-        order: 10;
+    .slide {
+        max-width: 300px;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .ProjectItem img {
-        max-width: 300px;
+    .slide {
+        width: 200px;
+        height: 100px;
     }
 }
