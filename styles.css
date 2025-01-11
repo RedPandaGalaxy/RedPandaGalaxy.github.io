@@ -56,7 +56,6 @@ body {
     width: 100%;
 
     background-color: #04052E;
-    box-shadow: 3px 20px 0px rgba(0, 0, 0, 0.2);
 
     border-bottom: thick groove #22007C;
 
@@ -243,7 +242,7 @@ body {
 .slide {
     display: none;
     width: 500px;
-    height: 250px;
+    height: 300px;
 }
 
 /* The dots/bullets/indicators */
@@ -407,6 +406,12 @@ body {
 
         order: 10;
     }
+
+    .slide {
+
+        width: 400px;
+        height: 250px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -422,7 +427,7 @@ body {
 
     .slide {
         width: 400px;
-        height: 200px;
+        height: 300px;
     }
 
     .AboutMeSection p {
@@ -452,7 +457,7 @@ body {
 
 @media screen and (max-width: 450px) {
     .slide {
-        width: 200px;
-        height: 100px;
+        width: 300px;
+        height: 200px;
     }
 }
