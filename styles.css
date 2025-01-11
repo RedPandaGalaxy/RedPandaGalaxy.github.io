@@ -10,20 +10,28 @@ body {
 }
 
 /* === color classes */
+.bg-color-dark {
+    background-color: #02010A;
+}
+
 .bg-color-1 {
-    background-color: #fef1d2;
+    /* background-color: #fef1d2; */
+    background-color: #0B132B;
 }
 
 .bg-color-2 {
-    background-color: #a9fdd8;
+    /* background-color: #a9fdd8; */
+    background-color: #04052E;
 }
 
 .bg-color-3 {
-    background-color: #d7f8ff;
+    /* background-color: #d7f8ff; */
+    background-color: #1C2541;
 }
 
 .bg-color-4 {
-    background-color: #feceea;
+    /* background-color: #feceea; */
+    background-color: #1E2749;
 }
 
 .bg-color-5 {
@@ -47,15 +55,18 @@ body {
     padding: 20px;
     width: 100%;
 
-    background-color: #000500;
+    background-color: #04052E;
     box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.2);
 
+    border-bottom: thick groove #22007C;
+
     transition: all 0.4s ease;
+
 }
 
 .sticky {
     padding: 15px 20px;
-    background-color: #362417;
+    background-color: #140152;
 }
 
 .navContent {
@@ -90,7 +101,7 @@ body {
 /* Change the color of links on hover */
 .navLinks a:hover {
     font-weight: bold;
-    box-shadow: 0 0.5em 0.4em -0.4em #f2f3ae;
+    box-shadow: 0 0.5em 0.4em -0.4em #6FFFE9;
     transform: translateY(-0.25em);
     cursor: pointer;
 }
@@ -99,8 +110,6 @@ body {
 
 /* ==== ABOUT ME ==== */
 .AboutMeSection {
-    background-color: #F1DABF;
-
     display: flex;
     flex-wrap: wrap;
 
@@ -131,6 +140,8 @@ body {
 }
 
 .AboutMeSection h4 {
+    color: #FAFAFF;
+
     margin: 0px;
     margin-top: 10px;
     padding: 0px 5px;
@@ -141,6 +152,9 @@ body {
 
 
 .AboutMeSection p {
+    color: #FAFAFF;
+    font-size: 18px;
+
     width: 500px;
     max-width: 700px;
     flex: 1 1 auto;
@@ -156,20 +170,17 @@ body {
 /* === PROJECTS ==== */
 .Projects Section {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex: 1 100%;
 }
 
 .ProjectItem {
-    border: 5px solid #333;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255, 0.4) 0px 2px 4px, rgba(255, 255, 255, 0.3) 0px 7px 13px -3px, rgba(255, 255, 255, 0.2) 0px -3px 0px inset;
 
     padding: 10px;
-    margin: 50px auto;
-    margin-top: 10px;
+    margin: 100px auto;
 
+    /* width: 100%; */
     max-width: 1500px;
 }
 
@@ -182,10 +193,12 @@ body {
     display: flex;
     text-align: left;
     flex-direction: column;
+
+    color: #FAFAFF;
 }
 
 .ProjectItem h3 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     text-align: center;
 
@@ -195,13 +208,15 @@ body {
 
 .ProjectItem h4 {
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
 
     margin: 0px;
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 
 .ProjectItem p {
+    font-size: 18px;
+
     margin: 0px;
     padding: 10px 25px;
 
@@ -209,18 +224,57 @@ body {
 }
 
 .ProjectItem li {
+    font-size: 18px;
+    font-weight: bold;
+
     margin: 0px;
     padding: 5px 10px;
 
-    font-weight: bold;
 }
 
 .SectionTitle {
     text-align: center;
-    background-color: #92817A;
+
+    background-color: #0B132B;
+    color: #6FFFE9;
+
     margin: 0px;
-    margin-top: 10px;
     padding: 15px;
+}
+
+.Tags {
+    display: flex;
+    align-items: start;
+
+    width: 100%;
+    margin: auto;
+}
+
+.Tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 5px;
+    margin: 5px;
+    gap: 10px;
+
+    border: 1px solid #22007C;
+    border-radius: 5px;
+
+    background-color: #1E2749;
+}
+
+.Tag img {
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+    border-radius: 100%;
+    align-self: center;
+}
+
+.Tag span {
+    font-size: 15px;
 }
 
 /* === PROJECTS ==== */
