@@ -17,15 +17,10 @@ const slideIndex = {
     c3: 1,
 };
 showSlide(slideIndex, "c0", "dot-c0");
+showSlide(slideIndex, "c1", "dot-c1");
+showSlide(slideIndex, "c2", "dot-c2");
 
-// let slideIndexC1 = 2;
-// showSlide(slideIndexC1, "c1", "dot-c1");
-
-// let slideIndexC2 = 3;
-// showSlide(slideIndexC2, "c2", "dot-c2");
-
-// let slideIndexC3 = 4;
-// showSlide(slideIndexC3, "c3", "dot-c3");
+// showSlide(slideIndex, "c3", "dot-c3");
 
 // Next/previous controls
 function plusSlide(n, carousel, dot) {
