@@ -60,6 +60,7 @@ body {
     border-bottom: thick groove #22007C;
 
     transition: all 0.4s ease;
+    order: 100;
 
 }
 
@@ -251,7 +252,7 @@ body {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #3A506B;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -272,23 +273,24 @@ body {
 
 .next,
 .prev {
-    background-color: #717171;
+    background-color: #3A506B;
     color: white;
 
     border: none;
-    padding: 2px 8px;
+    padding: 2px 15px;
+    opacity: 1.0;
 
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .next:hover,
 .prev:hover {
-    background-color: #bbb;
+    background-color: #5BC0BE;
 }
 
 .active,
 .dot:hover {
-    background-color: #717171;
+    background-color: #5BC0BE;
 }
 
 /* Fading animation */
@@ -312,7 +314,7 @@ body {
     font-size: 36px;
     font-weight: bold;
 
-    background-color: #0B132B;
+    background-color: #140152;
     color: #6FFFE9;
 
     margin: 0px;
