@@ -15,35 +15,23 @@ body {
 }
 
 .bg-color-1 {
-    /* background-color: #fef1d2; */
-    background-color: #0B132B;
-}
-
-.bg-color-2 {
-    /* background-color: #a9fdd8; */
-    background-color: #04052E;
-}
-
-.bg-color-3 {
-    /* background-color: #d7f8ff; */
     background-color: #1C2541;
 }
 
+.bg-color-2 {
+    background-color: #042438;
+}
+
+.bg-color-3 {
+    background-color: #1a202a;
+}
+
 .bg-color-4 {
-    /* background-color: #feceea; */
-    background-color: #1E2749;
+    background-color: #071c0b;
 }
 
 .bg-color-5 {
-    background-color: #cec5fa;
-}
-
-.bg-color-6 {
-    background-color: #d0b998;
-}
-
-.bg-color-7 {
-    background-color: #9cb887;
+    background-color: #211515;
 }
 
 /* === color classes */
