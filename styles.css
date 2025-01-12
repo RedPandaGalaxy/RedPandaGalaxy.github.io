@@ -60,8 +60,8 @@ body {
     border-bottom: thick groove #22007C;
 
     transition: all 0.4s ease;
-    order: 100;
-
+    /* draw navbar in front of everything else */
+    z-index: 999;
 }
 
 .sticky {
@@ -244,6 +244,7 @@ body {
     display: none;
     width: 500px;
     height: 300px;
+    order: 5;
 }
 
 /* The dots/bullets/indicators */
