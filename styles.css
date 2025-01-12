@@ -383,6 +383,67 @@ body {
     margin: auto;
 }
 
+/* === FOOTER  ===*/
+.footer {
+    display: flex;
+
+    text-align: center;
+    justify-content: center;
+
+    color: #5BC0BE;
+    background-color: #04052E;
+
+    margin: auto;
+}
+
+.footer span,
+.footer a {
+    font-size: 20px;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:link,
+.footer a:visited {
+    color: #5BC0BE;
+    text-decoration: none;
+}
+
+.footer a:hover,
+.email:hover,
+.discord:hover {
+    text-decoration: underline;
+    color: #6FFFE9;
+}
+
+.footer button:hover span,
+.footer button:hover a {
+    color: #6FFFE9;
+}
+
+.footer .Tag {
+    border: none;
+    background-color: transparent;
+}
+
+.footer button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+/* === FOOTER  ===*/
+
 /* === Game Jam Games === */
 @media screen and (max-width: 1200px) {
 
@@ -403,6 +464,12 @@ body {
         width: 400px;
         height: 250px;
     }
+
+    .footer span,
+    .footer a {
+        font-size: 16px;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
