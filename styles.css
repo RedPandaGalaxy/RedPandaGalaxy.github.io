@@ -275,6 +275,8 @@ body {
     opacity: 1.0;
 
     border-radius: 5px;
+
+    cursor: pointer;
 }
 
 .next:hover,
