@@ -153,6 +153,10 @@ body {
     margin: 0px;
 }
 
+.AboutMeSection span {
+    color: green;
+}
+
 /* ==== ABOUT ME ==== */
 
 /* === PROJECTS ==== */
