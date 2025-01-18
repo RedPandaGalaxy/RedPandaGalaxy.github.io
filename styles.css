@@ -373,6 +373,13 @@ body {
     font-size: 15px;
 }
 
+/* Hide the images by default */
+.game-gam-img {
+    display: block;
+    width: 500px;
+    max-height: 300px;
+}
+
 
 /* === PROJECTS ==== */
 
