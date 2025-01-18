@@ -34,6 +34,18 @@ body {
     background-color: #211515;
 }
 
+.font-color-1 {
+    color: #6FFFE9;
+}
+
+.font-color-2 {
+    color: #fca311;
+}
+
+.font-color-3 {
+    color: #e863eb;
+}
+
 /* === color classes */
 
 /* **** NAVBAR **** */
