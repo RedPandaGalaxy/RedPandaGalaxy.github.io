@@ -116,7 +116,7 @@
                             <li>Implement character controller for non-human character</li>
                             <li>Implement and design character abilities - shield, light & heavy attack, grapple hook
                             </li>
-                            <li>Add controler support</li>
+                            <li>Add joystick support</li>
                             <li>Implement Combat System between player, enemies etc.</li>
                             <li>Adjust scene lightning settings</li>
                         </ul>
@@ -165,23 +165,29 @@
                     <!-- <img src="images/Amnesty/journal.gif" alt=""> -->
                 </section>
 
-                <section class="ProjectItem bg-color-3">
+            </div>
+
+            <h2 class="SectionTitle">Side Projects</h2>
+            <div class="GameJamGames">
+
+                <section class="ProjectItem GameJamGame bg-color-3">
                     <section class="ProjectItemDescription">
-                        <h3 class="font-color-3">Action RPG</h3>
-                        <h4>Roles: Gameplay Programmer</h4>
-                        <p> It is a solo-development project focused on recreating combat mechanics from action-rpg
-                            games, using C++ in Unreal Engine. The game is to include light and heavy attack, target
-                            locking, block and a Boss AI <br><br>
-                            The game supports light attact & enemy focus as of now :3 </p>
+                        <h3 class="font-color-2">Procedural Lightning Generator</h3>
+                        <h4>Roles: VFX Programmer, Graphics Programmer</h4>
+                        <p>Implement procedural lightning generator in OpenGL. <br><br>
+                            Started as a solo-project at Graphics Programming course at university, it sparked my
+                            interest
+                            in shaders and experimanting to see how far I can take it!
                         <h4>My responsibilities:</h4>
                         <ul>
-                            <li>Imlpement light attack attack combo in C++</li>
-                            <li>Implement target lock in C++</li>
+                            <li>Design and implement and algorithm for generating lightning</li>
+                            <li>Implement post-processing effects such as bloom, blur</li>
                         </ul>
+                        <img class="game-gam-img" src="images/GameJamGames/elemental-shrine.png" alt="">
                         <section class="Tags">
                             <div class="Tag">
-                                <img src="images/icons/unrealEngine.png" alt="">
-                                <span>Unreal Engine 5.4</span>
+                                <img src="images/icons/openGL.png" alt="">
+                                <span>OpenGL</span>
                             </div>
                             <div class="Tag">
                                 <img src="images/icons/team.png" alt="">
@@ -193,21 +199,51 @@
                             </div>
                         </section>
                     </section>
-                    <div class="slideshow">
-                        <div class="slides">
-                            <button class="prev" onclick="plusSlide(-1,'c2','dot-c2')">&#8249;</button>
-                            <a onclick="plusSlide(1,'c2','dot-c2')"><img class="slide fade c2"
-                                    src="images/ActionRpg/enemy-lock.gif" alt=""></a>
-                            <a onclick="plusSlide(1,'c2','dot-c2')"><img class="slide fade c2"
-                                    src="images/ActionRpg/attack.gif" alt=""></a>
-                            <button class="next" onclick="plusSlide(1,'c2','dot-c2')">&#8250;</button>
+                </section>
+
+                <section class="ProjectItem GameJamGame bg-color-3">
+                    <section class="ProjectItemDescription">
+                        <h3 class="font-color-3">Action RPG</h3>
+                        <h4>Roles: Gameplay Programmer, Unreal Developer</h4>
+                        <p>It is a solo-development project focused on recreating combat mechanics from action-rpg
+                            games, using C++ in Unreal Engine. The game is to include light and heavy attack, target
+                            locking, block and a Boss AI <br><br>
+                            Currenlty the game supports light attact & enemy focus</p>
+                        <h4>My responsibilities:</h4>
+                        <ul>
+                            <li>Implement light attack attack combo in C++</li>
+                            <li>Implement target lock in C++</li>
+                        </ul>
+                        <div class="slideshow">
+                            <div class="slides">
+                                <button class="prev" onclick="plusSlide(-1,'c2','dot-c2')">&#8249;</button>
+                                <a onclick="plusSlide(1,'c2','dot-c2')"><img class="slide fade c2"
+                                        src="images/ActionRpg/enemy-lock.gif" alt=""></a>
+                                <a onclick="plusSlide(1,'c2','dot-c2')"><img class="slide fade c2"
+                                        src="images/ActionRpg/attack.gif" alt=""></a>
+                                <button class="next" onclick="plusSlide(1,'c2','dot-c2')">&#8250;</button>
+                            </div>
+                            <!-- The dots/circles -->
+                            <div style="text-align:center">
+                                <span class="dot dot-c2" onclick="currentSlide(1,'c2','dot-c2')"></span>
+                                <span class="dot dot-c2" onclick="currentSlide(2,'c2','dot-c2')"></span>
+                            </div>
                         </div>
-                        <!-- The dots/circles -->
-                        <div style="text-align:center">
-                            <span class="dot dot-c2" onclick="currentSlide(1,'c2','dot-c2')"></span>
-                            <span class="dot dot-c2" onclick="currentSlide(2,'c2','dot-c2')"></span>
-                        </div>
-                    </div>
+                        <section class="Tags">
+                            <div class="Tag">
+                                <img src="images/icons/unrealEngine.png" alt="">
+                                <span>Unreal Engine 5.4</span>
+                            </div>
+                            <div class="Tag">
+                                <img src="images/icons/team.png" alt="">
+                                <span>Team Size: 1 people</span>
+                            </div>
+                            <div class="Tag">
+                                <img src="images/icons/clock.png" alt="">
+                                <span>Duration: 2 month</span>
+                            </div>
+                        </section>
+                    </section>
                 </section>
 
             </div>
