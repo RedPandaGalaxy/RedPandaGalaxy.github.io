@@ -46,6 +46,10 @@ body {
     color: #e863eb;
 }
 
+.font-color-green {
+    color: green;
+}
+
 /* === color classes */
 
 /* **** NAVBAR **** */
@@ -155,7 +159,7 @@ body {
     color: #FAFAFF;
     font-size: 24px;
 
-    width: 500px;
+    /* width: 500px; */
     max-width: 700px;
     flex: 1 1 auto;
 
@@ -165,9 +169,11 @@ body {
     margin: 0px;
 }
 
-.AboutMeSection span {
-    color: green;
+.about-me-slash {
+    font-weight: bold;
+    font-size: 32px;
 }
+
 
 /* ==== ABOUT ME ==== */
 
