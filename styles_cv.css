@@ -218,6 +218,10 @@ html {
     font-size: 16px;
 }
 
+.ItemContent li {
+    padding-bottom: 5px;
+}
+
 .ItemTitle h3 {
     font-size: 20px;
     font-weight: bold;
