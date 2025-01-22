@@ -115,6 +115,7 @@ html {
 
 
 #AboutMeSection p {
+    text-align: left;
     width: 500px;
     max-width: 700px;
     flex: 1 1 auto;
@@ -174,7 +175,7 @@ html {
     display: block;
     margin: 0px;
     padding: 5px;
-    padding-top: 15px;
+    padding-top: 40px;
     width: 100%;
     text-align: center;
 
