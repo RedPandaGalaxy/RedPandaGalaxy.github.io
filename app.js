@@ -15,10 +15,13 @@ const slideIndex = {
     c1: 1,
     c2: 1,
     c3: 1,
+    c4: 1,
 };
 showSlide(slideIndex, "c0", "dot-c0");
 showSlide(slideIndex, "c1", "dot-c1");
 showSlide(slideIndex, "c2", "dot-c2");
+showSlide(slideIndex, "c3", "dot-c3");
+showSlide(slideIndex, "c4", "dot-c4");
 
 // showSlide(slideIndex, "c3", "dot-c3");
 
