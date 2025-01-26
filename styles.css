@@ -423,6 +423,7 @@ body {
 /* === FOOTER  ===*/
 .footer {
     display: flex;
+    flex-direction: column;
 
     text-align: center;
     justify-content: center;
@@ -433,16 +434,17 @@ body {
     margin: auto;
 }
 
+.social {
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    justify-content: center;
+}
+
 .footer span,
 .footer a {
     font-size: 20px;
-}
-
-.footer li {
-    list-style-type: none;
-}
-
-.footer a {
     text-decoration: none;
 }
 
@@ -477,6 +479,14 @@ body {
     font: inherit;
     cursor: pointer;
     outline: inherit;
+
+    margin-left: 20px;
+}
+
+.copyright {
+    display: block;
+    width: 100%;
+    margin: auto;
 }
 
 /* === FOOTER  ===*/

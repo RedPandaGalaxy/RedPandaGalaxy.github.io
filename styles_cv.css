@@ -249,6 +249,8 @@ hr {
 /* === FOOTER === */
 .footer {
     display: flex;
+    flex-direction: column;
+
     position: absolute;
     left: 0;
 
@@ -261,16 +263,17 @@ hr {
     width: 100%;
 }
 
+.social {
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    justify-content: center;
+}
+
 .footer span,
 .footer a {
     font-size: 20px;
-}
-
-.footer li {
-    list-style-type: none;
-}
-
-.footer a {
     text-decoration: none;
 }
 
@@ -305,6 +308,11 @@ hr {
     font: inherit;
     cursor: pointer;
     outline: inherit;
+}
+
+.footer .SkillsItem {
+    border: none;
+    background-color: transparent;
 }
 
 /* === FOOTER  ===*/
