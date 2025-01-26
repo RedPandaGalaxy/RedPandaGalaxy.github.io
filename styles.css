@@ -558,6 +558,10 @@ body {
     .slide {
         max-width: 300px;
     }
+
+    .social {
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 450px) {
