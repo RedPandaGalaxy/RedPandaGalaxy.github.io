@@ -82,13 +82,13 @@ html {
 
 .RightColumn {
     flex: 2 1 0;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
 /* === About Me === */
-#AboutMeSection {
+/* #AboutMeSection {
     background-color: #F1DABF;
-}
+} */
 
 #AboutMeSectionContainer {
     display: flex;
@@ -96,29 +96,34 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
+
     padding: 15px;
+    padding-left: 0;
+    padding-bottom: 0;
     margin: 0px;
 }
 
-#AboutMeSection img {
-    max-width: 150px;
-    max-height: 150px;
-
-    width: 150px;
-    height: 125px;
-
-    border-radius: 100%;
-    padding-right: 50px;
-    padding-left: 50px;
-    flex: 1 1 auto;
-}
-
-
 #AboutMeSection p {
-    text-align: left;
+    flex: 1 1 auto;
     width: 500px;
     max-width: 700px;
-    flex: 1 1 auto;
+
+    text-align: left;
+
+    padding: 5px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+#AboutMeNameHeaderContainer {
+    background-color: #F1DABF;
+}
+
+#AboutMeNameHeaderContainer h1 {
+    text-align: center;
+
+    margin: 0;
+    padding: 5px;
 }
 
 /* === Skills === */
@@ -183,6 +188,12 @@ html {
 }
 
 /* === Education === */
+.EductionSection,
+.ExperienceSection,
+.ProjectsSection {
+    padding-left: 20px;
+}
+
 .HeaderWithHorizontalLine {
     font-size: 24px;
 }
@@ -338,9 +349,16 @@ hr {
     /* === Main Content === */
 
     /* === About Me === */
-    #AboutMeSection img {
-        width: 100px;
-        height: 100px;
+    #AboutMeSection,
+    #AboutMeSectionContainer,
+    #AboutMeSection p {
+        display: flex;
+        flex-wrap: wrap;
+
+        max-width: 350px;
+
+        padding: 5 10px;
+        margin: 0;
     }
 
     /* === Skills === */
