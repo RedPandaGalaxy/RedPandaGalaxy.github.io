@@ -67,7 +67,8 @@ html {
 .CvContainer {
     background-color: #FFFBFF;
     max-width: 800px;
-    margin: 150px auto;
+    margin: auto;
+    margin-top: 150px;
     padding: 0px;
     box-shadow: 0 2px 20px #000500;
 }
@@ -327,6 +328,38 @@ hr {
 }
 
 /* === FOOTER  ===*/
+
+/* === DOWNLOAD ME BUTTON */
+#DownloadMeButtonContainer {
+    display: flex;
+    justify-content: center;
+
+    margin: 50px;
+    padding: 20px;
+}
+
+.button {
+    font-size: 24px;
+    border-radius: 25%;
+
+    background-color: #362417;
+    border-color: #92817A;
+    border-width: 5px;
+
+    color: white;
+
+    padding: 25px;
+}
+
+.button img {
+    max-width: 30px;
+}
+
+.button:hover {
+    background-color: #F1DABF;
+    color: #362417;
+}
+
 
 @media screen and (max-width: 600px) {
 
